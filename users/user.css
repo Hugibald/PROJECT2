@@ -1,0 +1,13 @@
+/* Color-code status-options */
+select option[value='free'] {
+  color: green;
+}
+select option[value='warned'] {
+  color: orange;
+}
+select option[value='blocked'] {
+  color: red;
+}
+select option[value='banned'] {
+  color: black;
+}
